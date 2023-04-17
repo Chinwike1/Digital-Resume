@@ -88,7 +88,9 @@ li{
 
 #socials--list{
     display: flex;
+    justify-content: space-between;
     padding: 0;
+    width: 100%;
 }
 
 #socials--list li {
