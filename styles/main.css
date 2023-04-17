@@ -107,7 +107,7 @@ li{
 }
 
 #qualifications--list{
-    list-style: none;
+    /* list-style: none; */
 }
 
 #wrapper--techstack__items{
@@ -146,6 +146,14 @@ li{
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
+}
+
+.card--work-company {
+    margin: 0.5rem 0;
+}
+
+.card--work-timeline {
+    margin: 0;
 }
 
 .line-break{
