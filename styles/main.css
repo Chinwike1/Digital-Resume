@@ -88,9 +88,14 @@ li{
 
 #socials--list{
     display: flex;
-    justify-content: space-between;
-    column-gap: 1em;
-    flex-wrap: wrap;
+    padding: 0;
+}
+
+#socials--list li {
+    flex: 0 0 auto;
+    margin-right: 1.5rem;
+    white-space: nowrap;
+    list-style: none;
 }
 
 #socials--list a{
@@ -105,6 +110,7 @@ li{
     color: var(--mainLinkColor);
     font-size: 0.9em;
 }
+
 
 #qualifications--list{
     /* list-style: none; */
@@ -163,6 +169,12 @@ li{
 
 
 @media(max-width:600px){
+
+    #socials--list {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
 
     .section--page{
         padding-top: 1em;
